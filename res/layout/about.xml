@@ -1,0 +1,47 @@
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_margin="16dp"
+    android:scrollbars="none" 
+   	>
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    
+    >
+
+    
+    <ImageSwitcher
+        android:id="@+id/imageSwitcher1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       
+        
+         >
+    </ImageSwitcher>
+
+    <Button
+        android:id="@+id/buttonNext"
+        android:layout_width="167dp"
+        android:layout_height="64dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/nextbtn1" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.28"
+        android:textColor="#90f030"
+        android:text="@string/about_string"
+        android:textSize="30sp" />
+
+</LinearLayout>
+
+</ScrollView>

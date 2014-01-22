@@ -1,0 +1,97 @@
+<ScrollView 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+     android:scrollbars="none" 
+    android:gravity="center_vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".CalcResult"
+     >
+     
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="626dp"
+        android:orientation="vertical" >
+
+        <ImageView 
+    android:id="@+id/image"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:background="@drawable/mark1"
+    />
+        
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Mark 1:"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#90f030" />
+
+    <TextView
+        android:id="@+id/markOne"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp" android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" 
+        android:textAppearance="?android:attr/textAppearanceLarge"
+         android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Mark 2:"
+        android:textColor="#90f030"
+        android:textAppearance="?android:attr/textAppearanceLarge" android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/markTwo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp" android:layout_weight="1"/>
+
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1" >
+
+ </RelativeLayout>
+
+<TextView
+    android:id="@+id/TextView02"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:text="Mark 3:"
+    android:textColor="#90f030"
+    android:textAppearance="?android:attr/textAppearanceLarge" android:layout_weight="1"/>
+
+<TextView
+    android:id="@+id/markThree"
+    android:layout_width="match_parent"
+    android:textColor="#FFFFFF"
+    android:layout_height="match_parent"
+    android:textSize="25sp" android:layout_weight="1"/>
+
+<Gallery
+    android:id="@+id/gallery"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10dp"
+    android:spacing="20dp" android:layout_weight="1"/>
+
+</LinearLayout>
+
+</ScrollView>
